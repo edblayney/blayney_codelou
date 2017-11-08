@@ -1,27 +1,64 @@
+/* code louisville custom CSS requirement*/
+.class-requirement {
+    font-size = 100%;
+    font-family: 'Asap', sans-serif;
+    background-color: firebrick;
+    
+}
+
+h3 {
+    font-style: italic;
+}
+
+/* Normalize import*/
 @import url("normalize.css");
 
-/****** Base ******/
-
-/* box-sizing makes sure that all of your divs fit on the screen*/
-* {
-  box-sizing: border-box;
+/* Repsonsive Design*/
+@media (min-width: 100px) and (max-width: 700px){
+    .wrapper{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .container{
+        width: 95%;
+    }
+    .flex-container{
+        flex-wrap: wrap;
+    }
+    h1{
+        padding-top: 10px;
+    }
 }
 
-html {
-  font-size: 100%;
+@media (min-width: 700px) and (max-width: 900px){
+    .wrapper{
+        width: 100%;
+        max-width: 700px;
+        min-width:700px;
+    }
+    footer{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
+    #badge-slider > img{
+        width: 100px;
+    }
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/*
-border-box tells the browser to account for any border and padding in the value you specify for width and height. If you set an element's width to 100 pixels, that 100 pixels will include any border or padding you added, and the content box will shrink to absorb that extra width. This typically makes it much easier to size elements.
-
-https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
-*/
-
-h1 {
-    font-family: 'Asap', sans-serif;
+@media (min-width: 900px) and (max-width: 1100px){
+    .wrapper{
+        width: 75%;
+        max-width: 900px;
+        min-width: 900px;
+    }
+    footer{
+        width: 100%;
+    }
+    .container{
+        width: 90%;
+    }
 }
