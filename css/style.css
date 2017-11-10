@@ -2,12 +2,33 @@
 .class-requirement {
     font-size = 100%;
     font-family: 'Asap', sans-serif;
-    background-color: firebrick;
+    color: firebrick;
     
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    border: 3px solid white;
+    padding: 10px;
 }
 
 h3 {
     font-style: italic;
+}
+
+
+body {
+    background-color: #e4e2d2;
+    font-family: 'Asap', sans-serif;
+    font-size: 1.75em;
 }
 
 /* Normalize import*/
