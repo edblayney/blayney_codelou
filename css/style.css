@@ -50,6 +50,10 @@ blockquote {
     padding-left: 5%;  
 }
 
+#email {
+    align-content: center;
+}
+
 /* Press images */
 
 .pressIMG {
