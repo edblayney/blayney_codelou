@@ -3,65 +3,67 @@
 <html lang="en">
 
 <head>
-    
-    <!-- Required meta tags -->
-    <title>Ed Blayney | Civic Technologist</title>
-
-    <meta name="author" content="CodeLouisville">
-    <meta name="description" content="CodeLouisville">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Ed Blayney">
+    <meta name="description" content="Ed Blayney - Civic Technologist specializing in digital transformation and public service">
+
+    <title>Ed Blayney | Civic Technologist</title>
 
     <link rel="apple-touch-icon" href="icon.png">
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
-    
-    <script src="js/app.js"></script>
+
+    <script src="js/app.js" defer></script>
 
 </head>
 
 <body class="home">
 
 <!-- Header -->
-    <h1 class = "header">Ed Blayney | Civic Technologist</h1>
-        <a href= "https://twitter.com/edblayney">
-            <img src = "img/profilePic.jpg" class = "img-responsive img-circle" alt ="profile pic" height = "200" width = "200">
-        </a>
+<header role="banner">
+    <h1 class="header">Ed Blayney | Civic Technologist</h1>
+    <a href="https://twitter.com/edblayney" aria-label="Visit Ed Blayney's Twitter profile">
+        <img src="img/profilePic.jpg" class="img-responsive img-circle" alt="Ed Blayney professional headshot" height="200" width="200">
+    </a>
     <br>
-<!-- Header -->
+</header>
+<!-- /Header -->
 
 <!-- About Me -->
-    <div class = "container" id="mission">
-        <h1>About Me</h1>
+<main role="main">
+    <section class="container" id="mission" aria-labelledby="about-heading">
+        <h1 id="about-heading">About Me</h1>
+        <br>
+        <div class="adjustContainer">
+            <h2>Mission Statement</h2>
+            <blockquote>
+                I will be a pillar of my community by living a life focused on public service and family because I value feeling a sense of community with those around me.
+            </blockquote>
             <br>
-            <div class = "adjustContainer">
-                <h2>Mission Statement</h2>
-                    <blockquote>
-                        I will be a pillar of my community by living a life focused on public service and family because I value feeling a sense of community with those around me.
-                    </blockquote>
-                <br>
-                <h2>Career Goals</h2>
-                    <ul>
-                        <li>Lead digital transformation intitatives for Government agencies</li>
-                        <li>Build collaborative, diverse, hard-working teams</li>
-                        <li>Promote digital equity</li>
-                    </ul>
-            </div>
-    </div>
+            <h2>Career Goals</h2>
+            <ul>
+                <li>Lead digital transformation initiatives for Government agencies</li>
+                <li>Build collaborative, diverse, hard-working teams</li>
+                <li>Promote digital equity</li>
+            </ul>
+        </div>
+    </section>
     <br>
-<!-- About Me -->
+<!-- /About Me -->
 
 <!-- Experience -->
-    <div class = "container">
-    <h1>Professional Experience</h1>
+    <section class="container" aria-labelledby="experience-heading">
+        <h1 id="experience-heading">Professional Experience</h1>
         <br>
-        <div class="accordion vertical">
+        <div class="accordion vertical" role="region" aria-label="Professional experience timeline">
             <ul>
                 <li>
                     <input type="checkbox" id="checkbox-1" name="checkbox-accordion" />
@@ -112,67 +114,67 @@
 
             </ul>
         </div>
-    </div>
-<!-- Experience -->
+    </section>
+<!-- /Experience -->
     
-<!-- Education -->   
-    <div class= "container">
-        <h1>Education</h1>
-            <br>
-            <div class = "adjustContainer">
-                <ul id = "education">
-                    <li>Master of Public Administration, University of North Carolina</li>
-                    <li>Bachelor of Arts, University of Alabama</li>
-                    <li>Disruptive Strategy, HBX</li>
-                    <li>Open Government, EdX</li>
-                </ul>
-            </div>
-    </div>
 <!-- Education -->
+    <section class="container" aria-labelledby="education-heading">
+        <h1 id="education-heading">Education</h1>
+        <br>
+        <div class="adjustContainer">
+            <ul id="education">
+                <li>Master of Public Administration, University of North Carolina</li>
+                <li>Bachelor of Arts, University of Alabama</li>
+                <li>Disruptive Strategy, HBX</li>
+                <li>Open Government, EdX</li>
+            </ul>
+        </div>
+    </section>
+<!-- /Education -->
     
-<!-- Press --> 
+<!-- Press -->
     <br>
-    <div class = "container">
-        <h1>Press</h1>
-            <br>
-            <div class="well text-center" id = "pressContainer">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <a href="https://govex.jhu.edu/wiki/podcast-analog-hackathon-louisville/">
-                                <img src="img/govexPod.jpg" alt="GovEx Data Points Podcast - Ep. 38" class = "img-rounded img-responsive pressIMG">
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="https://soundcloud.com/govlove/101-disruptive-innovation-in-louisville-ky">
-                                <img src="img/govLoveLogo.png" alt="Gov Love Podcast - Ep. 101" class = "img-rounded img-responsive pressIMG">
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href=https://www.livingcities.org/blog/1091-using-civictech-to-stop-fires-in-vacant-properties>
-                                <img src="img/livingcities.jpeg" alt="Using #CivicTech to Stop Fires in Vacant Properties" class = "img-rounded img-responsive pressIMG">
-                            </a>
-                        </div>
-                    </div>
+    <section class="container" aria-labelledby="press-heading">
+        <h1 id="press-heading">Press</h1>
+        <br>
+        <div class="well text-center" id="pressContainer">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://govex.jhu.edu/wiki/podcast-analog-hackathon-louisville/" aria-label="Listen to GovEx Data Points Podcast Episode 38">
+                        <img src="img/govexPod.jpg" alt="GovEx Data Points Podcast logo - Episode 38 featuring Ed Blayney" class="img-rounded img-responsive pressIMG">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://soundcloud.com/govlove/101-disruptive-innovation-in-louisville-ky" aria-label="Listen to Gov Love Podcast Episode 101">
+                        <img src="img/govLoveLogo.png" alt="Gov Love Podcast logo - Episode 101 about disruptive innovation in Louisville" class="img-rounded img-responsive pressIMG">
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.livingcities.org/blog/1091-using-civictech-to-stop-fires-in-vacant-properties" aria-label="Read article about using civic tech to stop fires in vacant properties">
+                        <img src="img/livingcities.jpeg" alt="Living Cities article about using civic technology to prevent fires in vacant properties" class="img-rounded img-responsive pressIMG">
+                    </a>
+                </div>
             </div>
-            
-    </div>
- <!-- Press --> 
+        </div>
+    </section>
+</main>
+<!-- /Press --> 
 
 <!-- Footer -->
-<footer>
-    <p class = "class-requirement">&copy; Ed Blayney</p>
-<!-- Javascript Requirement -->    
-    <button type="button" id = "email" class = "btn-md btn-block" onclick= classReq()>Click Here for Contact Info</button>
+<footer class="footer mt-4 py-3">
+    <p class="class-requirement">&copy; Ed Blayney</p>
+<!-- Javascript Requirement -->
+    <button type="button" id="email" class="btn btn-primary btn-md btn-block" aria-label="Show contact information">Click Here for Contact Info</button>
 <!-- LinkedIn Button -->
-    <a href="https://www.linkedin.com/in/edblayney/" class="btn btn-info btn-block" role="button">Connect with me</a>
+    <a href="https://www.linkedin.com/in/edblayney/" class="btn btn-info btn-block" role="button" target="_blank" rel="noopener noreferrer">Connect with me on LinkedIn</a>
 </footer>
 
 <!-- /Footer -->
 
 <!-- JavaScript -->
     <!-- jQuery, Popper.js, Bootstrap JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
